@@ -1,0 +1,13 @@
+.section-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+
+.section-text{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    line-height: 130%;
+    color: rgb(14, 16, 26);
+}

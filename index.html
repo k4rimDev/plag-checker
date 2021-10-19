@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon Logo of website -->
+    <link rel="icon" href="./images/logo.jpeg" type = "image/x-icon">
+
+    <!-- Reset css -->
+    <link rel="stylesheet" href="Styles/reset.css">
+    
+    <!-- Fonts of Header and Footer -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <!-- Lexend Deca Font-familiy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+    <!-- Inter Font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Roboto Font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Global css -->
+    <link rel="stylesheet" href="Styles/global.css">
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="Styles/style.css">
+
+    <!-- Response css -->
+    <link rel="stylesheet" href="Styles/response.css">
+    <title>PlagCheck</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top__inner">
+                    <div class="language-selector">
+                        <span>
+                            Change language
+                        </span>
+                        <select name="" id="" class="language-changer">
+                            <option value="/">English</option>
+                            <option value="/de">Deutsch</option>
+                            <option value="/es">Español</option>
+                            <option value="/fr">Français</option>
+                            <option value="/it">Italiano</option>
+                        </select>
+                    </div>
+                    <div class="header-search-login">
+                        <form action="/seacrch" role="search" class="header-search">
+                            <input type="text" placeholder="Search..." name="q" class="form-control__search">
+                        </form>
+                        <div class="header-login">
+                            <a href="#" class="header__register">Create Account</a>
+                            <a href="#" class="header__login">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom__inner">
+                    <div class="header-logo">
+                        <img src="Images/logo.jpeg" alt="Logo" class="header-logo__img">
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu-list">
+                            <li class="menu__item">
+                                <p class="menu__link product__dropdown">
+                                    Products
+                                </p>
+                            </li>
+                            <li class="menu__item">
+                                <p class="menu__link solution__dropdown">
+                                    Solutions
+                                </p>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Resources
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Support
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Contact Sales
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Dropdowns -->
+                <div class="products-dropdown">
+                    <ul class="products-list">
+                        <li class="products__item">
+                            <a href="#" class="products__link">
+                                <h3 class="products-title">
+                                    Originality
+                                </h3>
+                                <p class="products-desc">
+                                    Address the originality of student work and emerging trends in misconduct with this comprehensive solution.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="products__item">
+                            <a href="#" class="products__link">
+                                <h3 class="products-title">
+                                    Gradescope
+                                </h3>
+                                <p class="products-desc">
+                                    Deliver and grade all types of assessments from anywhere using this modern assessment platform.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="products__item">
+                            <a href="#" class="products__link">
+                                <h3 class="products-title">
+                                    iThenticate 
+                                </h3>
+                                <p class="products-desc">
+                                    This high-stakes plagiarism checking tool is the gold standard for academic researchers and publishers.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="products__item">
+                            <a href="#" class="products__link">
+                                <h3 class="products-title">
+                                    Similarity 
+                                </h3>
+                                <p class="products-desc">
+                                    This robust, comprehensive plagiarism checker fits seamlessly into existing workflows.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="products__item">
+                            <a href="#" class="products__link">
+                                <h3 class="products-title">
+                                    Feedback Studio 
+                                </h3>
+                                <p class="products-desc">
+                                    Give feedback and grade assignments with this tool that fosters writing excellence and academic integrity.
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Solution dropdown -->
+                <div class="solution-dropdown">
+                    <ul class="solution-list">
+                        <li class="products__item">
+                            <a href="#" class="products__link">
+                                <h3 class="products-title">
+                                    Higher Education 
+                                </h3>
+                                <p class="products-desc">
+                                    Uphold academic integrity, streamline grading and feedback, and protect your reputation with these tools.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="products__item">
+                            <a href="#" class="products__link">
+                                <h3 class="products-title">
+                                    Secondary Education 
+                                </h3>
+                                <p class="products-desc">
+                                    Improve student writing, check for text similarity, and help develop original thinking skills with these tools for teachers.
+                                </p>
+                            </a>
+                        </li>
+                        <li class="products__item">
+                            <a href="#" class="products__link">
+                                <h3 class="products-title">
+                                    Research & Publication  
+                                </h3>
+                                <p class="products-desc">
+                                    Publish with confidence using the tool top researchers and publishers trust to ensure the originality of scholarly works.
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Intro section -->
+        <section class="intro">
+            <div class="container">
+                <form action="/" class="plag-checker">
+                    <textarea name="plag-text" id="" cols="30" rows="10" class="plag-text__inp" placeholder="Type text..."></textarea>
+                    <div class="plag__inner">
+                        <input type="file" title=" " name="palg-file" class="plag-file__inp">
+                        <button class="plag-text__btn" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Works section -->
+        <section class="works">
+            <div class="container">
+                <h2 class="works-title section-title">
+                    Works Where You Do
+                </h2>
+                <p class="works-desc section-text">
+                    Get corrections from Grammarly while you write on Gmail, Twitter, LinkedIn, and all your other favorite sites.
+                </p>
+                <div class="works__inner">
+                    <div class="works__item">
+                        <h3 class="works__item-title">
+                            Emails and Messages
+                        </h3>   
+                        <div class="works__programs">
+                            <div class="works-program">
+                                <img src="Images/Icons/gmail.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    GMAIL
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/outlook.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    OUTLOOK
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/messenger.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    MESSENGER
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/yahoo.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    YAHOO
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="works__item">
+                        <h3 class="works__item-title">
+                            Documents and Projects
+                        </h3>   
+                        <div class="works__programs">
+                            <div class="works-program">
+                                <img src="Images/Icons/slack.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    SLACK
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/g_docs.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    GOOGLE DOCS
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/jira.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    JIRA
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/salesforce.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    SALESFORCE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="works__item">
+                        <h3 class="works__item-title">
+                            Social Media
+                        </h3>   
+                        <div class="works__programs">
+                            <div class="works-program">
+                                <img src="Images/Icons/medium.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    MEDIUM
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/facebook.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    FACEBOOK
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/twitter.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    TWITTER
+                                </p>
+                            </div>
+                            <div class="works-program">
+                                <img src="Images/Icons/linked_in.svg" alt="" class="works-program__img">
+                                <p class="works-program__name">
+                                    LINKEDIN
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container-sm">
+                <div class="about__inner">
+                    <div class="about-info">
+                        <h2 class="about-title section-title">
+                            Everyone Can Be a Great Writer
+                        </h2>
+                        <p class="about-desc section-text">
+                            “Grammarly allows me to get those communications out and feel confident that I’m putting my best foot forward. 
+                            Grammarly is like a little superpower, especially when I need to be at 110%.”
+                        </p>
+                    </div>
+                    <div class="about-galery">
+                        <img src="Images/worker-woman.png" alt="Worker" class="about-workers">
+                        <h3 class="about-worker__name">
+                            Jeanette Stock
+                        </h3>
+                        <p class="about-worker__role">
+                            Co-founder of
+                            Venture Out
+                        </p>
+                    </div>
+                </div>
+                <div class="about-brands">
+                    <p class="about-brands__title">
+                        Featured in:
+                    </p>
+                    <div class="about-brands__item">
+                        <img src="Images/Icons/new_york_times.svg" alt="" class="about-brands__img">
+                    </div>
+                    <div class="about-brands__item">
+                        <img src="Images/Icons/wsj.svg" alt="" class="about-brands__img">
+                    </div>
+                    <div class="about-brands__item">
+                        <img src="Images/Icons/usa_today.svg" alt="" class="about-brands__img">
+                    </div>
+                    <div class="about-brands__item">
+                        <img src="Images/Icons/techcrunch.svg" alt="" class="about-brands__img">
+                    </div>
+                    <div class="about-brands__item">
+                        <img src="Images/Icons/forbes.svg" alt="" class="about-brands__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Writing section -->
+        <section class="writing">
+            <div class="container">
+                <div class="writing__inner">
+                    <h2 class="writing-title section-title">
+                        Brilliant Writing Awaits
+                    </h2>
+                    <p class="writing-desc section-text">
+                        Get started for free and find out what you can accomplish with the power of Grammarly at your fingertips.
+                    </p>
+                    <a href="#" class="writing-link">
+                        Add to Chrome <span>It's free</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container"> 
+            <div class="footer__inner">
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Products
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Feedback Studio</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Gradescope</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">PlagCheck Originality</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">PlagCheck Similarity</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">iThenticate</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Revision Assistant</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Solutions
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Higher Education</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Secondary Education</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Research & Publication</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Partners</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Support
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Help</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">System Status</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Support Center</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Company
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">About</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Careers</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Press</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Blog</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Accessibility</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Privacy</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">CA Privacy Rights</a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer__title">
+                        Connect
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">PlagCheck Educator Network</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Gradescope</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Twitter</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">LinkedIn</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Facebook</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Pinterest</a>
+                    </li>
+                </ul>
+                <div class="footer__logo">
+                    <a href="#" class="logo-link">
+                        <img src="Images/logo.jpeg" alt="" class="logo-pic">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Slider -->
+    <script src="./Scripts/slick.min.js"></script>
+
+    <!-- App js -->
+    <script src="Scripts/app.js"></script>
+</body>
+</html>
